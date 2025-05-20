@@ -1,4 +1,9 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
     padding-top: 75px;
     background-color: rgb(15, 18, 36);
 }
@@ -22,9 +27,8 @@ body {
 }
 
 .intro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: static;
+    transform: none;
+    width: 100%;
     text-align: center;
 }
