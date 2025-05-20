@@ -1,0 +1,22 @@
+body {
+    padding-top: 75px;
+    background-color: rgb(15, 18, 36);
+}
+
+.hello {
+    color: rgb(180, 180, 180);
+    font-family: "Karla", sans-serif;
+}
+
+.toppart {
+    background-color: rgb(0, 0, 0);
+}
+
+#name {
+    font-size: 85px;
+    color: beige;
+    font-weight: bold 700;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
